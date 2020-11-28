@@ -1,0 +1,75 @@
+variable name: app_list
+use objects: True
+data:
+  2019_S2:
+    name: 2019 Semester 2
+    data:
+      - name: CBS NDIS Advisor (v1.0)
+        url: https://docassemble.flinders.edu.au/interview?i=docassemble.CBSNDISAdvisor%3Adata%2Fquestions%2FSTG_main.yml#page1
+        org: CBS
+      - name: SACAT Homelessness Advisor
+        url: https://docassemble.flinders.edu.au/interview?i=docassemble.SACATHomelessnessAdvisor%3Adata%2Fquestions%2FSHA_main.yml#page1
+        org: SACAT
+  2020_S1:
+    name: 2020 Semester 1
+    data:
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P02%3Adata%2Fquestions%2Fmain_code2.yml#page1
+        name: iRefer SA
+        org: FLPN
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P03%3Adata%2Fquestions%2FASSIGNMENT_00_welcome.yml#page1
+        name: Access Alert
+        org: EOC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P04%3Adata%2Fquestions%2FEOC_APP_MAIN.yml#page1
+        name: Jursidiction Finder
+        org: EOC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P05%3Adata%2Fquestions%2Fcompiled_prototype1.yml#page1
+        name: 'Ensuring Equality: Disability Discrimation Reporting Form'
+        org: EQL
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P06%3Adata%2Fquestions%2FP06WLSSA.yml#page1
+        name: Online Client Advice Form
+        org: WLSSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P07%3Adata%2Fquestions%2FSAAS+Consent+Adviser.yml#page1
+        name: Medical Consent Advisor
+        org: SAAS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P08%3Adata%2Fquestions%2FRSB_NDIS_FINAL.yml#page1
+        name: Assistive Technology Advice
+        org: RSB
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P10%3Adata%2Fquestions%2FP10_RSB_main.yml#page1
+        name: NDIS Service Agreement Application
+        org: RSB
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P11%3Adata%2Fquestions%2FAssessS2Final.yml#page1
+        name: MyDocs
+        org: HSC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P12%3Adata%2Fquestions%2FHSC_NDISmain.yml#page1
+        name: NDIS Eligibility Advisor
+        org: HSC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P15%3Adata%2Fquestions%2FLAST_EVER_SACAT_APP.yml#page1
+        name: Application for Stay Form
+        org: SACAT
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P16%3Adata%2Fquestions%2FJIRM_CURRENT.yml#page6
+        name: Legal Assistance Web App
+        org: SACAT
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P17%3Adata%2Fquestions%2FP17_fullapp.yml#page1
+        name: CBS NDIS Advisor (v 2.0)
+        org: CBS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P18%3Adata%2Fquestions%2FGP18FINAL.yml
+        name: Preparing for your NDIS planning meeting
+        org: CBS
+  2020_S2:
+    name: 2020 Semester 2
+    data:
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S2P01:data/questions/SYC_Service_Agreement_Main.yml
+        name: NDIS Service Agreement Maintenance
+        org: SYC
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S2P05:data/questions/P05_main.yml
+        name: Service Directory for Interrelated Issues in Metropolitan Adelaide
+        org: UC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S2P06%3Adata%2Fquestions%2FCLCSA_Welcome_And_End_Screen.yml#page1
+        name: CLCSA Service Directory
+        org: CLCSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S2P08%3Adata%2Fquestions%2FS2_final_application.yml#page1
+        name: DSP Compass (v2.0)
+        org: CBS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S2P12%3Adata%2Fquestions%2FS2P12_Main.yml#page1
+        name: St Vincent de Paul Crisis Centre Application
+        org: VMCC

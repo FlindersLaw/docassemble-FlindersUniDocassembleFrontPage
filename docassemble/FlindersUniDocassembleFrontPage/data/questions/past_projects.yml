@@ -1,0 +1,52 @@
+---
+event: past_projects
+question: Past Projects
+subquestion: | 
+  Check out some of the apps written by previous *Digital Age*
+  students
+
+  ${ app_table }
+
+buttons:
+  Back to the front page: restart
+right: |
+  <div id="MJFLicenceOuter">
+  <div id="MJFLicenceInner">
+  <span class="MJFLicenceHeader"><p>Licence</p></span>
+  
+  The intellectual property contained in the applications 
+  in this table is the property of Flinders University and the named
+  clients.  These apps are provided to you to be used for 
+  <b>evaluation and demonstration purposes only</b>.  You must not: 
+
+  <ol>
+  <li>share the application links or the applications with a third party without consent; or 
+  <li>use the applications for your regular business, with your usual clients or otherwise in any day-to-day business environment. 
+  </ol>
+
+  If you are interested in using any of these applications 
+  for your business or organization, please contact
+  <a href="mailto:mark.ferraretto@flinders.edu.au">Mark Ferraretto</a> 
+  to arrange a suitable licensing agreement.
+  </div>
+  </div>
+---
+template: app_table
+content: |
+  **2019 Semester 1**
+  *Digital Age* was taught in 2019 Semester 1 using Netoa Logic's proprietary
+  no-code platform.  The decision was made to move to Docassemble in 2019
+  Semester 2 to provide a more cost-effective solution to our access-to-justice
+  clients and to provide a more flexible Intellectual Property regime.
+  
+
+  %for a_semester in sorted(app_list.keys()):
+  **${ app_list[a_semester]['name']}**
+
+  Application|Client
+  --------|---
+  %for an_app in app_list[a_semester]['data']:
+  [${an_app['name']}](${an_app['url']})|[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})
+  %endfor
+
+  %endfor

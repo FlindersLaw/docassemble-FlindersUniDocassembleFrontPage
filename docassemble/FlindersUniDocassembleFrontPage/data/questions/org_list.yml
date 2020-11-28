@@ -1,0 +1,72 @@
+---
+variable name: org_list
+use objects: True
+data:
+  CBS:
+    name: Community Bridging Services (SA) Inc.
+    url: https://cbsinc.org.au
+    logo: CBS-logo-small-white.png
+    width: 220px
+  CLCSA:
+    name: Community Legal Centres SA
+    url: https://clcsa.org.au
+    logo: CLCSAlogo.jpg
+    width: 100px
+  EOC:
+    name: Equal Opportunity Commission
+    url: https://eoc.sa.gov.au
+    logo: EOClogo.jpg
+    width: 250px
+  EQL:
+    name: Equality Lawyers
+    url: https://equalitylawyers.com.au
+    logo: EQL.logo.png
+    width: 220px
+  FLPN:
+    name: Family Law Pathways Network SA
+    url: https://www.pathwaysnetworksa.com.au/
+    logo: familylaw_pathways_logo2.jpg
+    width: 250px
+  HSC:
+    name: Hutt Street Centre
+    url:  https://huttstcentre.org.au
+    logo: huttstreet.png
+    width: 180px
+  RSB:
+    name: Royal Society for the Blind
+    url:  https://rsb.org.au
+    logo: RSBlogo.png
+    width: 250px
+  SAAS:
+    name: SA Ambulance Service
+    url: https://www.saambulance.com.au
+    logo: SAASlogo.png
+    width: 230px
+  SACAT:
+    name: SA Civil and Administrative Tribunal
+    url: https://sacat.sa.gov.au
+    logo: SACAT.png
+    width: 240px
+  SYC:
+    name: SYC
+    url:  https://www.syc.net.au
+    logo: SYC_Logo.gif
+    width: 150px
+  UC:
+    name: Uniting Communities
+    url: https://unitingcommunities.org
+    logo: unitingcommunities.jpg
+    width: 250px
+  VMCC:
+    name: "Vinnes Men's Crisis Centre"
+    url: https://www.vinnies.org.au/page/Find_Help/SA/Housing/Vincentian_Centre/
+    logo: Vinnies_Logo.jpg
+    width: 250px
+  WLSSA:
+    name: "Women's Legal Service South Australia"
+    url: https://wlssa.org.au
+    logo: WLSSA_logo.png
+    width: 100px
+
+  
+  

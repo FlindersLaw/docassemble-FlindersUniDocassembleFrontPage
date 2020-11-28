@@ -1,17 +1,45 @@
+---
+include:
+  - app_list.yml
+  - org_list.yml
+  - past_projects.yml
+---
+features:
+  table width: 100
+  css: styles.css
+  debug: True
+  hide standard menu: False
+---
+metadata:
+    title: Flinders University Docassemble
+    short title: Flinders Docassemble
+    show login: True
+---
+# Next two blocks set the logo
+objects:
+    - theLogo: DAStaticFile.using(filename='flinder-logo_white.png')
+---
+mandatory: True
+code: |
+  set_parts(logo='<img src="' + theLogo.url_for() + '" style="height: 50px;">')
+---
 mandatory: True
 question: Welcome to Docassemble
 subquestion: |
-  This system is the teaching Docassemble system
-  used by Flinders University's College of Business,
+  This is the teaching Docassemble system
+  for Flinders University's College of Business,
   Government and Law.
   
   **Students**
   
-  Sign in using the link in the top right of the yellow bar above
-  
+  Registration instructions are in the Topic material and introductory
+  videos.  Once registered, you can sign in using the link in the
+  top right.
+ 
   **Everyone**
   
-  Browse project developed by law students who have studied
+  [Browse projects](${url_action('past_projects')})
+   developed by law students who have studied
   *LLAW3301: Law in a Digital Age*.
   
   These apps were written for real-world clients by law students 
@@ -19,49 +47,8 @@ subquestion: |
   topic.
   
   Coding is not as difficult as you may think.  You can acquire a 
-  useful set of coding skills quite quickly as the apps below
+  useful set of coding skills quite quickly, as these apps
   demonstrate.
-  
-  **Licence:** 
-  The intellectual property contained in the applications 
-  in this table is the property of Flinders University and the named
-  clients.  These apps are provided to you only to be used for 
-  evaluation and demonstration purposes.  You must not: 
-  
-  1. share the application links or the applications with a third party without consent; or 
-  2. use the applications for your regular business, with your usual clients or otherwise in any day-to-day business environment. 
-  
-  If you are interested in using any of these applications 
-  for your business or organization, please contact 
-  [Mark Ferraretto](mailto:mark.ferraretto@flinders.edu.au) 
-  to arrange a suitable licensing agreement.
-  
-  ${ app_table }
----
-template: app_table
-content: |
-  **2019 Semester 1**
-  *Digital Age* was taught in 2019 Semester 1 using Netoa Logic's proprietary
-  no-code platform.  The decision was made to move to Docassemble in 2019
-  Semester 2 to provide a more cost-effective solution to our access-to-justice
-  clients and to provide a more flexible Intellectual Property regime.
-  
-  **2019 Semester 2**
-  
-  Application|Client (and comments)
-  ---|---
-  [CBS NDIS 
 
----
-variable name: app_list
-use objects: True
-data:
-  2019_S2:
-    - name: CBS NDIS Advisor
-      url: https://docassemble.flinders.edu.au/interview?i=docassemble.CBSNDISAdvisor%3Adata%2Fquestions%2FSTG_main.yml#page1
-      org: Community Bridging Services Inc
-    - name: SACAT Homelessness Advisor
-      url: https://docassemble.flinders.edu.au/interview?i=docassemble.SACATHomelessnessAdvisor%3Adata%2Fquestions%2FSHA_main.yml#page1
-      org: SA Civil and Administrative Tribunal (SACAT)
-  2020_S1
-  - name: CBS NDIS Advisor
+  [Checkout the projects here](${ url_action('past_projects')})
+  
