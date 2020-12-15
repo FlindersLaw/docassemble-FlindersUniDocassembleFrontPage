@@ -1,0 +1,32 @@
+---
+features:
+  table width: 100
+  css: styles.css
+  debug: True
+  hide standard menu: False
+---
+metadata:
+    title: Flinders University Docassemble
+    short title: Flinders Docassemble
+    show login: True
+---
+# Next two blocks set the logo
+objects:
+    - theLogo: DAStaticFile.using(filename='flinder-logo_white.png')
+---
+mandatory: True
+code: |
+  set_parts(logo='<img src="' + theLogo.url_for() + '" style="height: 50px;">')
+---
+mandatory: True
+question: Welcome to Docassemble
+subquestion: |
+  This is *docassemble2*. It is used for overflow and
+  hosting client
+  applications.  It is not used as a regular
+  teaching and development server.
+  
+  For more information about how we use Docassemble and for some 
+  example applications, please visit our
+  [teaching Docassemble Server](https://docassemble.flinders.edu.au)
+  
