@@ -23,7 +23,20 @@ mandatory: True
 code: |
   set_parts(logo='<img src="' + theLogo.url_for() + '" style="height: 50px;">')
 ---
+# This code block either displays the main page or displays
+# the projects page.  Sometimes we want the interview to
+# go directly to the past projects, particularly when
+# we want prospective clients to view our past projects
 mandatory: True
+code: |
+  if 'past_projects' in url_args:
+    pp_button_text = 'Exit'
+    past_projects
+  else:
+    pp_button_text = 'Back to the front page'
+    main_endpoint
+---
+event: main_endpoint
 question: Welcome to Docassemble
 subquestion: |
   This is the teaching Docassemble system

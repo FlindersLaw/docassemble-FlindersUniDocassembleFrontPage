@@ -8,7 +8,12 @@ subquestion: |
   ${ app_table }
 
 buttons:
-  Back to the front page: restart
+  ${ pp_button_text }:
+    code: |
+      if pp_button_text == 'Exit':
+        command('exit', url='https://flinders.edu.au')
+      else:
+        command('restart')
 right: |
   <div id="MJFLicenceOuter">
   <div id="MJFLicenceInner">
