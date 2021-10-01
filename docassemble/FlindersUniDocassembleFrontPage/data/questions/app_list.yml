@@ -73,3 +73,42 @@ data:
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S2P12%3Adata%2Fquestions%2FS2P12_Main.yml#page1
         name: St Vincent de Paul Crisis Centre Application
         org: VMCC
+  2021_S1:
+    name: 2021 Semester 1
+    data:
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1BDF1%3AS2_End_Screen.yml#page1
+        name: Obelisk Note Generator
+        org: BDF
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1CBS1%3AS1_main.yml#page1
+        name: Disability Support Pension Navigator
+        org: CBS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1FLAC1%3AFLAC1_Main.yml#page1
+        name: FLC Fencing App
+        org: FLC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1FLAC2%3AFLAC2.main.yml#page1
+        name: PiCKeT
+        org: FLC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1FLN2%3AFLN2_main.yml#page1
+        name: Paws Rights
+        org: FLN
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1FLPN2%3AFLPN_Main.yml#page1
+        name: Family Law Lawyer Directory
+        org: FLPN
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1HSC1%3AHSC.main.yml#page1
+        name: Community Services Tool
+        org: HSC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1RSB1%3Amain.yml#page1
+        name: NDIS Service Directory
+        org: RSB
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1RSPCA1%3ARSPCA.main.yml#page1
+        name: Information Form Automation
+        org: RSPCA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1TIAS1%3ATIAS1.main.yml#page1
+        name: Tenny
+        org: TIAS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1VSS1%3AVSS_main.yml#page1
+        name: VSS Companion Guide
+        org: VSS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1WWC1%3AWWC1.main.yml#page1
+        name: Money Claim Guide
+        org: WWC
