@@ -2,6 +2,11 @@
 variable name: org_list
 use objects: True
 data:
+  BDF:
+    name: Bedford Industries
+    url: https://bedfordgroup.com.au/
+    logo: Bedford_Welcome_Logo.png
+    width: 250px
   CBS:
     name: Community Bridging Services (SA) Inc.
     url: https://cbsinc.org.au
@@ -22,6 +27,16 @@ data:
     url: https://equalitylawyers.com.au
     logo: EQL.logo.png
     width: 220px
+  FLC:
+    name: Flinders Legal Centre
+    url: https://www.flinders.edu.au/engage/community/clinics/flinders-legal-centre
+    logo: flinderuni_main_logo_black.png
+    width: 250px
+  FLN:
+    name: Flinders University College of Nursing and Health Sciences
+    url: https://www.flinders.edu.au/college-nursing-health-sciences
+    logo: flinderuni_main_logo_black.png
+    width: 250px
   FLPN:
     name: Family Law Pathways Network SA
     url: https://www.pathwaysnetworksa.com.au/
@@ -36,6 +51,11 @@ data:
     name: Royal Society for the Blind
     url:  https://rsb.org.au
     logo: RSBlogo.png
+    width: 250px
+  RSPCA:
+    name: Royal Society for the Protection and Care of Animals SA
+    url: https://www.rspcasa.org.au/about/
+    logo: rspca-sa-logo.png
     width: 250px
   SAAS:
     name: SA Ambulance Service
@@ -52,6 +72,11 @@ data:
     url:  https://www.syc.net.au
     logo: SYC_Logo.gif
     width: 150px
+  TIAS:
+    name: TIAS
+    url: https://www.syc.net.au/home/rentrightsa/
+    logo: Rent_Right_SA.png
+    width: 250px
   UC:
     name: Uniting Communities
     url: https://unitingcommunities.org
@@ -62,11 +87,21 @@ data:
     url: https://www.vinnies.org.au/page/Find_Help/SA/Housing/Vincentian_Centre/
     logo: Vinnies_Logo.jpg
     width: 250px
+  VSS:
+    name: Victim Support Service SA
+    url: https://www.victimsa.org/
+    logo: VSS_Logo.png
+    width: 200px
   WLSSA:
     name: "Women's Legal Service South Australia"
     url: https://wlssa.org.au
     logo: WLSSA_logo.png
     width: 100px
+  WWC:
+    name: "The Working Women's Centre SA Inc"
+    url: https://wwcsa.org.au/
+    logo: wwc_logo.png
+    width: 250px
 
   
   
