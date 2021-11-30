@@ -41,9 +41,10 @@ content: |
   **2019 Semester 1**
   
   *Digital Age* was taught in 2019 Semester 1 using Netoa Logic's proprietary
-  no-code platform.  The decision was made to move to Docassemble in 2019
-  Semester 2 to provide a more cost-effective solution to our access-to-justice
-  clients and to provide a more flexible Intellectual Property regime.
+  no-code platform. Since Semester 2, 2019, we have used the free and open source
+  software platform Docassemble to provide our access-to-justice clients with 
+  cost-effective solutions and a flexible Intellectual Property regime. You can
+  find out more about Docassemble [here](https://docassemble.org/).
   
 
   %for a_semester in sorted(app_list.keys()):
