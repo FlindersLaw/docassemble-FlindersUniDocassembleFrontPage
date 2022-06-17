@@ -112,3 +112,27 @@ data:
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S1WWC1%3AWWC1.main.yml#page1
         name: Money Claim Guide
         org: WWC
+  2021_S2:
+    name: 2021 Semester 2
+    data:
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2ALRM1:data/questions/ALRM_CIRS.yml
+        name: Civil Internal Referral System
+        org: ALRM
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2ALRM2:data/questions/ALRM_main.yml
+        name: CSP Connect
+        org: ALRM
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2CFS1:data/questions/CFS1_firstMain.yml
+        name: Land Management Support
+        org: CFS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2DCMB1:data/questions/S1_DCMB1.yml
+        name: Dog and Cats Online Self Help Tool
+        org: DCMB
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2FLAC3:data/questions/FLAC3_main.yml 
+        name: Fencey
+        org: FLC
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2FLN1:data/questions/FLN1_main.yml
+        name: Paws Rights Eatery Refusal Reporting
+        org: FLN
+      - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2FLN3:data/questions/FLN3_main.yml
+        name: Refusal Report Against Assistance Animals
+        org: FLN
