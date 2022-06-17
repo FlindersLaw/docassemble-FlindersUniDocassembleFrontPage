@@ -2,6 +2,11 @@
 variable name: org_list
 use objects: True
 data:
+  ALRM:
+    name: Aboriginal Legal Rights Movement
+    url: https://www.alrm.org.au/
+    logo: ALRM_Logo.jpg
+    width: 150px
   BDF:
     name: Bedford Industries
     url: https://bedfordgroup.com.au/
@@ -12,11 +17,21 @@ data:
     url: https://cbsinc.org.au
     logo: CBS-logo-small-white.png
     width: 220px
+  CFS:
+    name: Country Fire Service SA
+    url: https://www.cfs.sa.gov.au/home/
+    logo: cfsLogo.png
+    width: 250px
   CLCSA:
     name: Community Legal Centres SA
     url: https://clcsa.org.au
     logo: CLCSAlogo.jpg
     width: 100px
+  DCMB:
+    name: Dog and Cat Management Board Government of South Australia
+    url: https://dogandcatboard.com.au/
+    logo: DCMB_logo.jpg
+    width: 250px
   EOC:
     name: Equal Opportunity Commission
     url: https://eoc.sa.gov.au
