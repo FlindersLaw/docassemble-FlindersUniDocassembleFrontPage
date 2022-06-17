@@ -1,0 +1,39 @@
+---
+features:
+  table width: 100
+  css: FLN_common.css
+  debug: False
+  hide standard menu: False
+---
+metadata:
+    title: Flinders University Docassemble
+    short title: Flinders Docassemble
+    show login: True
+---
+# Next two blocks set the logo
+objects:
+    - theLogo: DAStaticFile.using(filename='flinder-logo_white.png')
+---
+mandatory: True
+code: |
+  set_parts(logo='<img src="' + theLogo.url_for() + '" style="height: 50px;">')
+---
+mandatory: True
+question: Welcome to Paws Rights
+subquestion: |
+  Welcome to *docassemble3*. This server hosts the Paws Rights applications.
+  
+  These applications will help you report instances where you have been refused entry to an eatery, to transport or to short term accommodation with an assistance animal. 
+  
+  Please click on one of the buttons below to report a refusal of entry.
+action buttons:
+  - label: Food/Retail
+    icon: coffee
+    action: https://docassemble3.flinders.edu.au/interview?i=docassemble.LLAW33012021S2FLN1:data/questions/FLN1_main.yml
+  - label: Transport
+    icon: bus
+    action: http://docassemble3.flinders.edu.au/interview?i=docassemble.LLAW33012021S1FLN2:data/questions/FLN2_main.yml
+  - label: Accommodation
+    icon: home
+    action: https://docassemble3.flinders.edu.au/interview?i=docassemble.LLAW33012021S2FLN3:data/questions/FLN3_main.yml
+---
