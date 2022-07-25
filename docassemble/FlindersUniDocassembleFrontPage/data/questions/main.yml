@@ -17,7 +17,8 @@ metadata:
 ---
 # Next two blocks set the logo
 objects:
-    - theLogo: DAStaticFile.using(filename='flinder-logo_white.png')
+    #- theLogo: DAStaticFile.using(filename='flinder-logo_white.png')
+    - theLogo: DAStaticFile.using(filename='Flinders_University_Logo_New_White_Txt.png')
 ---
 mandatory: True
 code: |
