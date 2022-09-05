@@ -7,6 +7,11 @@ data:
     url: https://www.alrm.org.au/
     logo: ALRM_Logo.jpg
     width: 150px
+  ACSA:
+    name: Anglicare South Australia
+    url: https://anglicaresa.com.au/
+    logo: Anglicare.png
+    width: 250px
   BDF:
     name: Bedford Industries
     url: https://bedfordgroup.com.au/
@@ -32,6 +37,11 @@ data:
     url: https://dogandcatboard.com.au/
     logo: DCMB_logo.jpg
     width: 250px
+  EDO:
+    name: Environmental Defenders Office
+    url: https://www.edo.org.au/
+    logo: EDO_logo.png
+    width: 220px
   EOC:
     name: Equal Opportunity Commission
     url: https://eoc.sa.gov.au
@@ -42,6 +52,11 @@ data:
     url: https://equalitylawyers.com.au
     logo: EQL.logo.png
     width: 220px
+  EZL:
+    name: Ezra Legal
+    url: https://ezralegal.com.au/
+    logo: Ezra-Legal-Logo.png
+    width: 250px
   FLC:
     name: Flinders Legal Centre
     url: https://www.flinders.edu.au/engage/community/clinics/flinders-legal-centre
@@ -56,6 +71,11 @@ data:
     name: Family Law Pathways Network SA
     url: https://www.pathwaysnetworksa.com.au/
     logo: familylaw_pathways_logo2.jpg
+    width: 250px
+  HCSA:
+    name: Housing Choices SA
+    url: https://www.housingchoices.org.au/south-australia/
+    logo: Housing_Choices_SA.png
     width: 250px
   HSC:
     name: Hutt Street Centre
