@@ -136,3 +136,24 @@ data:
       - url: http://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012021S2FLN3:data/questions/FLN3_main.yml
         name: Refusal Report Against Assistance Animals
         org: FLN
+  2022_S1:
+    name: 2022 Semester 1
+    data:
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1ACSA1:data/questions/ACSA1_S3_main_final.yml
+        name: Child Contact Service Appointment Booking
+        org: ACSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1EDO1:data/questions/EDO1_code_order.yml
+        name: Tree Ark
+        org: EDO
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1EZL1:data/questions/EL_Main.yml
+        name: Client Intake Form
+        org: EZL
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1HCSA1:data/questions/better_tenant.yml
+        name: Better Tenant
+        org: HCSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1HCSA2:data/questions/HCSA2Main.yml
+        name: Rent Calculator
+        org: HCSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1UC3:data/questions/UC3_MAIN.yml
+        name: NDIS Review
+        org: UC
