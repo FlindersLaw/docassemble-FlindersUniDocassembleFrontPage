@@ -7,7 +7,7 @@ include:
 features:
   table width: 100
   css: styles.css
-  debug: True
+  debug: False
   hide standard menu: False
 ---
 metadata:
