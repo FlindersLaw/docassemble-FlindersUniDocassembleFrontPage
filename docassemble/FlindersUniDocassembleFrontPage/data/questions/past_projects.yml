@@ -47,14 +47,25 @@ content: |
   find out more about Docassemble [here](https://docassemble.org/).
   
 
+  <table>
+  <tbody>
   %for a_semester in sorted(app_list.keys()):
-  **${ app_list[a_semester]['name']}**
+  <tr>
+  <th colspan="2"> **${ app_list[a_semester]['name']}** </th>
+  </tr>
+  <tr>
+  <th>Application</th>
+  <th>Client</th>
+  </tr>
 
-  Application|Client
-  --------|---
   %for an_app in app_list[a_semester]['data']:
-  ${ an_app['anchor'] }|[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})
+  <tr>
+  <td>${an_app['anchor']}</td>
+  <td>[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})</td>
+  </tr>
   %endfor
+  </tbody>
+  </table>
 
   %endfor
 ---
