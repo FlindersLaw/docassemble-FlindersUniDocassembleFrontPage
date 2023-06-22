@@ -157,3 +157,21 @@ data:
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1UC3:data/questions/UC3_MAIN.yml
         name: NDIS Review
         org: UC
+  2023_S1:
+    name: 2023 Semester 1
+    data:
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S1CEN1:data/questions/CEN1main.yml
+        name: Co-Parent Connect
+        org: CEN
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S1LDO1:data/questions/LDO1.main.yml
+        name: Amending Order Tool
+        org: LDO
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S1LSC1:data/questions/LSC1_S1_Main.yml
+        name: DriveWise
+        org: LSC
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S1MSM1:data/questions/MSM1main.yml
+        name: Client Intake
+        org: MSM
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S1UC2:data/questions/UC2_main.yml
+        name: Responsible Loan Check
+        org: UC

@@ -6,7 +6,7 @@ data:
     name: Aboriginal Legal Rights Movement
     url: https://www.alrm.org.au/
     logo: ALRM_Logo.jpg
-    width: 150px
+    width: 75px
   ACSA:
     name: Anglicare South Australia
     url: https://anglicaresa.com.au/
@@ -22,6 +22,11 @@ data:
     url: https://cbsinc.org.au
     logo: CBS-logo-small-white.png
     width: 220px
+  CEN:
+    name: Centacare
+    url: https://www.centacare.org.au
+    logo: centacareLogo.png
+    width: 250px
   CFS:
     name: Country Fire Service SA
     url: https://www.cfs.sa.gov.au/home/
@@ -82,6 +87,21 @@ data:
     url:  https://huttstcentre.org.au
     logo: huttstreet.png
     width: 180px
+  LDO:
+    name: Legislative Drafting Office of Jersey
+    url: https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx
+    logo: LDOLogo.png
+    width: 250px
+  LSC:
+    name: Legal Services Commission South Australia
+    url: https://lsc.sa.gov.au
+    logo: LSCLogo.png
+    width: 250px
+  MSM:
+    name: MSM Legal
+    url: https://www.msmlegal.com.au
+    logo: MSMLegalLogo.png
+    width: 175px
   RSB:
     name: Royal Society for the Blind
     url:  https://rsb.org.au
@@ -132,6 +152,11 @@ data:
     url: https://wlssa.org.au
     logo: WLSSA_logo.png
     width: 100px
+  WSL:
+    name: Westside Lawyers
+    url: https://westsidelawyers.net
+    logo: WSLLogo.png
+    width: 250px
   WWC:
     name: "The Working Women's Centre SA Inc"
     url: https://wwcsa.org.au/
