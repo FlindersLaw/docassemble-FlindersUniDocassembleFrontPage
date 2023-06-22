@@ -44,7 +44,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.FlindersUniDocassembleFrontPage',
-      version='1.0.2',
+      version='1.0.3',
       description=('Alternative default interview for Flinders DA server'),
       long_description='An alternative default interview for Flinders Docassemble server.',
       long_description_content_type='text/markdown',
