@@ -53,7 +53,7 @@ content: |
   Application|Client
   --------|---
   %for an_app in app_list[a_semester]['data']:
-  ${ an_app['anchor] }|[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})
+  ${ an_app['anchor'] }|[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})
   %endfor
 
   %endfor
