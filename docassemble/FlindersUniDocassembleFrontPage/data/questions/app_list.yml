@@ -40,7 +40,7 @@ data:
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P11%3Adata%2Fquestions%2FAssessS2Final.yml#page1
         name: MyDocs
         org: HSC
-      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P12%3Adata%2Fquestions%2FHSC_NDISmain.yml#page1
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P12%3Adata%2Fquestions%2Fmain.yml
         name: NDIS Eligibility Advisor
         org: HSC
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012020S1P15%3Adata%2Fquestions%2FLAST_EVER_SACAT_APP.yml#page1
