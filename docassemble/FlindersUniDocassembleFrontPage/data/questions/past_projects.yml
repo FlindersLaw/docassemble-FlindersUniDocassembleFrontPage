@@ -53,7 +53,19 @@ content: |
   Application|Client
   --------|---
   %for an_app in app_list[a_semester]['data']:
-  [${an_app['name']}](${an_app['url']})|[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})
+  ${ an_app['anchor] }|[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})
   %endfor
 
   %endfor
+---
+# Constructs the anchor tag for displaying the link.  We construct the anchor
+# tag here so we can:
+# - make the app_table template a bit cleaner; and
+# - add a target="_blank" into the tag
+code: |
+  app_url = app_list[i][j][k]['url']
+  app_name = app_list[i][j][k]['name']
+  app_list[i][j][k]['anchor'] = '<a href="{}" target="_blank">{}</a>'.format(
+    app_url, app_name
+  )
+
