@@ -51,17 +51,24 @@ content: |
   <tbody>
   %for a_semester in sorted(app_list.keys()):
   <tr>
-  <th colspan="2"> **${ app_list[a_semester]['name']}** </th>
+  <th colspan="2" style="background-color: rgba(0, 0, 0, 0.1); font-size: 1.2em;">
+  ${ app_list[a_semester]['name']}
+  </th>
   </tr>
   <tr>
-  <th>Application</th>
-  <th>Client</th>
+  <th style="background-color: rgba(0, 0, 0, 0.03);">Application</th>
+  <th style="background-color: rgba(0, 0, 0, 0.03);">Client</th>
   </tr>
 
   %for an_app in app_list[a_semester]['data']:
   <tr>
+<<<<<<< HEAD
   <td>${an_app['anchor']}</td>
   <td>logo</td>
+=======
+  <td style="padding: 10px; vertical-align: top;">${an_app['anchor']}</td>
+  <td style="padding: 10px;">[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})</td>
+>>>>>>> e43530f0560085c2ccd986258669d90982d8f32b
   </tr>
   %endfor
   %endfor
