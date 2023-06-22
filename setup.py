@@ -6,6 +6,7 @@ from distutils.util import convert_path
 
 standard_exclude = ('*.pyc', '*~', '.*', '*.bak', '*.swp*')
 standard_exclude_directories = ('.*', 'CVS', '_darcs', './build', './dist', 'EGG-INFO', '*.egg-info')
+
 def find_package_data(where='.', package='', exclude=standard_exclude, exclude_directories=standard_exclude_directories):
     out = {}
     stack = [(convert_path(where), '', package)]
@@ -43,14 +44,14 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.FlindersUniDocassembleFrontPage',
-      version='0.0.1',
+      version='1.0.1',
       description=('Alternative default interview for Flinders DA server'),
       long_description='An alternative default interview for Flinders Docassemble server.',
       long_description_content_type='text/markdown',
       author='Mark Ferraretto',
       author_email='mark.ferraretto@flinders.edu.au',
-      license='All Rights Reserved',
-      url='https://docassemble.org',
+      license='Copyright (c) 2023 Flinders University. All Rights Reserved.',
+      url='https://docassemble.flinders.edu.au',
       packages=find_packages(),
       namespace_packages=['docassemble'],
       install_requires=[],
