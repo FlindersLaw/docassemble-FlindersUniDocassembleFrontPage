@@ -61,7 +61,7 @@ content: |
   %for an_app in app_list[a_semester]['data']:
   <tr>
   <td>${an_app['anchor']}</td>
-  <td>[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})</td>
+  <td>logo</td>
   </tr>
   %endfor
   </tbody>
