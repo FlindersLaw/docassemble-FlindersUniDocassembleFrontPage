@@ -64,10 +64,9 @@ content: |
   <td>logo</td>
   </tr>
   %endfor
+  %endfor
   </tbody>
   </table>
-
-  %endfor
 ---
 # Constructs the anchor tag for displaying the link.  We construct the anchor
 # tag here so we can:
