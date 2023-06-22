@@ -51,9 +51,7 @@ content: |
   <tbody>
   %for a_semester in sorted(app_list.keys()):
   <tr>
-  <th colspan="2" style="background-color: rgba(0, 0, 0, 0.1); font-size: 1.2em;">
-  ${ app_list[a_semester]['name']}
-  </th>
+  <th colspan="2" style="background-color: rgba(0, 0, 0, 0.1); font-size: 1.2em;"> ${ app_list[a_semester]['name']}</th>
   </tr>
   <tr>
   <th style="background-color: rgba(0, 0, 0, 0.03);">Application</th>
@@ -62,13 +60,8 @@ content: |
 
   %for an_app in app_list[a_semester]['data']:
   <tr>
-<<<<<<< HEAD
-  <td>${an_app['anchor']}</td>
-  <td>logo</td>
-=======
   <td style="padding: 10px; vertical-align: top;">${an_app['anchor']}</td>
-  <td style="padding: 10px;">[[FILE ${org_list[an_app['org']]['logo']}, ${org_list[an_app['org']]['width']}]](${org_list[an_app['org']]['url']})</td>
->>>>>>> e43530f0560085c2ccd986258669d90982d8f32b
+  <td style="padding: 10px;">${an_app['logo_url']}</td>
   </tr>
   %endfor
   %endfor
@@ -86,3 +79,19 @@ code: |
     app_url, app_name
   )
 ---
+# Constructs the anchor to the image. 
+code: |
+  app_org = app_list[i][j][k]['org']
+  org_logo_file = org_list[app_org]['logo']
+  org_logo_width = org_list[app_org]['width']
+  org_logo_url = org_list[app_org]['url']
+
+  # Get a URL to the logo
+  org_logo = DAStatifFile.using(filename=org_logo_file)
+  logo_url = org_logo.url_for()
+
+  # Create the <img> tag
+  img_tag = '<img src={} style="width: {};">'.format(logo_url, org_logo_width)
+
+  # Create the <a> tag
+  app_list[i][j][k]['logo_url'] = '<a href="{}">{}</a>'.format(org_logo_url, img_tag)
