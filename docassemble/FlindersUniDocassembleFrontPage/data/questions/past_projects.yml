@@ -47,15 +47,15 @@ content: |
   find out more about Docassemble [here](https://docassemble.org/).
   
 
-  <table>
+  <table id="my-table">
   <tbody>
   %for a_semester in sorted(app_list.keys()):
   <tr>
   <th colspan="2" style="background-color: rgba(0, 0, 0, 0.1); font-size: 1.2em;"> ${ app_list[a_semester]['name']}</th>
   </tr>
   <tr>
-  <th style="background-color: rgba(0, 0, 0, 0.03);">Application</th>
-  <th style="background-color: rgba(0, 0, 0, 0.03);">Client</th>
+  <th class="no-band">Application</th>
+  <th class="no-band">Client</th>
   </tr>
 
   %for an_app in app_list[a_semester]['data']:
@@ -87,7 +87,8 @@ code: |
   org_logo_url = org_list[app_org]['url']
 
   # Get a URL to the logo
-  org_logo = DAStatifFile.using(filename=org_logo_file)
+  org_logo = DAStaticFile()
+  org_logo.filename = org_logo_file
   logo_url = org_logo.url_for()
 
   # Create the <img> tag

@@ -16,7 +16,7 @@ data:
     name: Bedford Industries
     url: https://bedfordgroup.com.au/
     logo: Bedford_Welcome_Logo.png
-    width: 250px
+    width: 180px
   CBS:
     name: Community Bridging Services (SA) Inc.
     url: https://cbsinc.org.au
@@ -31,12 +31,12 @@ data:
     name: Country Fire Service SA
     url: https://www.cfs.sa.gov.au/home/
     logo: cfsLogo.png
-    width: 250px
+    width: 170px
   CLCSA:
     name: Community Legal Centres SA
     url: https://clcsa.org.au
     logo: CLCSAlogo.jpg
-    width: 100px
+    width: 80px
   DCMB:
     name: Dog and Cat Management Board Government of South Australia
     url: https://dogandcatboard.com.au/
@@ -46,7 +46,7 @@ data:
     name: Environmental Defenders Office
     url: https://www.edo.org.au/
     logo: EDO_logo.png
-    width: 220px
+    width: 150px
   EOC:
     name: Equal Opportunity Commission
     url: https://eoc.sa.gov.au
@@ -66,12 +66,12 @@ data:
     name: Flinders Legal Centre
     url: https://www.flinders.edu.au/engage/community/clinics/flinders-legal-centre
     logo: flinderuni_main_logo_black.png
-    width: 250px
+    width: 200px
   FLN:
     name: Flinders University College of Nursing and Health Sciences
     url: https://www.flinders.edu.au/college-nursing-health-sciences
     logo: flinderuni_main_logo_black.png
-    width: 250px
+    width: 200px
   FLPN:
     name: Family Law Pathways Network SA
     url: https://www.pathwaysnetworksa.com.au/
@@ -81,17 +81,17 @@ data:
     name: Housing Choices SA
     url: https://www.housingchoices.org.au/south-australia/
     logo: Housing_Choices_SA.png
-    width: 250px
+    width: 180px
   HSC:
     name: Hutt Street Centre
     url:  https://huttstcentre.org.au
     logo: huttstreet.png
-    width: 180px
+    width: 150px
   LDO:
     name: Legislative Drafting Office of Jersey
     url: https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx
     logo: LDOLogo.png
-    width: 250px
+    width: 180px
   LSC:
     name: Legal Services Commission South Australia
     url: https://lsc.sa.gov.au
@@ -101,7 +101,7 @@ data:
     name: MSM Legal
     url: https://www.msmlegal.com.au
     logo: MSMLegalLogo.png
-    width: 175px
+    width: 100px
   RSB:
     name: Royal Society for the Blind
     url:  https://rsb.org.au
@@ -131,7 +131,7 @@ data:
     name: TIAS
     url: https://www.syc.net.au/home/rentrightsa/
     logo: Rent_Right_SA.png
-    width: 250px
+    width: 200px
   UC:
     name: Uniting Communities
     url: https://unitingcommunities.org

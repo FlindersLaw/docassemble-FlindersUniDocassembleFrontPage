@@ -100,3 +100,10 @@
 .MJFLicenceHeader {
     font-weight: bolder;
 }
+
+#my-table tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.03); /* Set the background color for even rows */
+}
+#my-table .no-band {
+  background-color: rgba(0,0,0,0.1); /* Reset the background color for specific rows */
+}
