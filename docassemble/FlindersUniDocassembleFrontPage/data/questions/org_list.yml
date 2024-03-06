@@ -37,6 +37,16 @@ data:
     url: https://clcsa.org.au
     logo: CLCSAlogo.jpg
     width: 80px
+  ConservationSA:
+    name: Conservation Council of SA
+    url: https://www.conservationsa.org.au/
+    logo: ConservationSA.png
+    width: 250px
+  DCLS:
+    name: Darwin Community Legal Service
+    url: https://dcls.org.au
+    logo: DCLS.png
+    width: 150px
   DCMB:
     name: Dog and Cat Management Board Government of South Australia
     url: https://dogandcatboard.com.au/
@@ -65,17 +75,27 @@ data:
   FLC:
     name: Flinders Legal Centre
     url: https://www.flinders.edu.au/engage/community/clinics/flinders-legal-centre
-    logo: flinderuni_main_logo_black.png
-    width: 200px
+    logo: FLC.png
+    width: 250px
   FLN:
     name: Flinders University College of Nursing and Health Sciences
     url: https://www.flinders.edu.au/college-nursing-health-sciences
-    logo: flinderuni_main_logo_black.png
+    logo: Flinders_University_Logo_New.png
     width: 200px
   FLPN:
     name: Family Law Pathways Network SA
     url: https://www.pathwaysnetworksa.com.au/
     logo: familylaw_pathways_logo2.jpg
+    width: 250px
+  FWCL:
+    name: Far West Community Legal Centre Ltd
+    url: https://farwestclc.org.au
+    logo: FWCLC.png
+    width: 250px
+  GDSA:
+    name: Guide Dogs SA/NT
+    url: https://sant.guidedogs.com.au
+    logo: GuideDogsLogo.png
     width: 250px
   HCSA:
     name: Housing Choices SA
@@ -102,6 +122,11 @@ data:
     url: https://www.msmlegal.com.au
     logo: MSMLegalLogo.png
     width: 100px
+  NCLS:
+    name: Northern Community Legal Service
+    url: https://northernlegal.org.au
+    logo: NCLSLogo.png
+    width: 100px
   RSB:
     name: Royal Society for the Blind
     url:  https://rsb.org.au
@@ -122,6 +147,11 @@ data:
     url: https://sacat.sa.gov.au
     logo: SACAT.png
     width: 240px
+  SALVOS:
+    name: The Salvation Army
+    url: https://www.salvationarmy.org.au/
+    logo: Salvos.jpg
+    width: 100px
   SYC:
     name: SYC
     url:  https://www.syc.net.au
@@ -156,7 +186,7 @@ data:
     name: Westside Lawyers
     url: https://westsidelawyers.net
     logo: WSLLogo.png
-    width: 250px
+    width: 300px
   WWC:
     name: "The Working Women's Centre SA Inc"
     url: https://wwcsa.org.au/

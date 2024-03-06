@@ -175,3 +175,34 @@ data:
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S1UC2:data/questions/UC2_main.yml
         name: Responsible Loan Check
         org: UC
+  2023_S2:
+    name: 2023 Semester 2
+    data:
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2BDF2:data/questions/main.yml
+        name: Privacy Act Advisor
+        org: BDF
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2CSA1:data/questions/CSA1_main.yml
+        name: TreeKeeper
+        org: ConservationSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2DCLS1:data/questions/DCLS1_main.yml
+        name: "Tenants' Advice App"
+        org: DCLS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2FWCL1:data/questions/FWCL1_main.yml
+        name: FWCL Services Directory
+        org: FWCL
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2GDSA1:data/questions/main.yml
+        name: "Guide Dogs SA/NT 'Your Guide'"
+        org: GDSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2NCLS1:data/questions/NCLS_main.yml
+        name: "NCLS Proof of Marriage App"
+        org: NCLS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2SACAT4:data/questions/main.yml
+        name: Explanation of Application and Disclaimer
+        org: SACAT
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2SALVOS1:data/questions/main.yml
+        name: Emergency Relief Service
+        org: SALVOS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012023S2WSL1:data/questions/WSL1Main.yml
+        name: Wellbeing App Directory
+        org: WSL
+      

@@ -71,7 +71,7 @@
 */
 .dabody {
     background-color: rgba(255,239,162, 0.2);
-    background-image: url("flinderuni_main_logo_black.png");
+    background-image: url("Flinders_University_Logo_New.png");
     background-repeat: no-repeat;
     background-position: 98% 98%;
     background-attachment: fixed;
@@ -80,16 +80,13 @@
 
 /* Licence for viewing software to be displayed on right side
    with smaller text
-*/
-
-/* Use a pair of DIVs so we can offset the licence from the top
+   Use a pair of DIVs so we can offset the licence from the top
    of the page
 */
 #MJFLicenceOuter {
     margin: auto;
     overflow: visible;
 }
-
 #MJFLicenceInner {
     margin-top: 120px;
     background-color: rgba(255,239,162, 0.4);
