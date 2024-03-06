@@ -157,6 +157,24 @@ data:
       - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S1UC3:data/questions/UC3_MAIN.yml
         name: NDIS Review
         org: UC
+  2022_S2:
+    name: 2022 Semester 2
+    data:
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S2ALRM3:data/questions/ALRM_main.yml
+        name: ALRM Client Contact App
+        org: ALRM
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S2FVLS1:data/questions/LLAW3301A_FVLSAC_MAINFILE.yml
+        name: Family Violence Legal Service Aboriginal Corporation Client Contact App
+        org: FVLS
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S2JNSA1:data/questions/service_directory_main_final.yml
+        name: JusticeGuide SA
+        org: JNSA
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S2LDO1:data/questions/S1G-Main.yml
+        name: First Draft Generator (Version 1)
+        org: LDO
+      - url: https://docassemble.flinders.edu.au/interview?i=docassemble.LLAW33012022S2UCWB1:data/questions/Welcomescreen.yml
+        name: Connection Zone
+        org: UCWB
   2023_S1:
     name: 2023 Semester 1
     data:
